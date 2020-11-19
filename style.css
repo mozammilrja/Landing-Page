@@ -1,0 +1,89 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            /* Header */
+            
+            body {
+                background-image: url(servey.jpeg);
+                height: 90vh;
+                background-size: auto;
+                font-weight: 500;
+                font-size: 16px;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .logo {
+                width: 29%;
+                height: 40px;
+                margin-right: auto;
+            }
+            /* flex using main part */
+            
+            header {
+                display: flex;
+                /* position: fixed; */
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 30px 70px;
+            }
+            
+            .nav-area {
+                list-style: none;
+            }
+            /* main part flex */
+            
+            .nav-area li {
+                display: inline-block;
+                padding: 0 15px;
+            }
+            
+            .nav-area li a {
+                color: black;
+                text-transform: uppercase;
+            }
+            
+            .nav-area li a:hover {
+                color: blue;
+            }
+            
+            .nav-area a {
+                float: left;
+            }
+            /* Header */
+            /* */
+            
+            .container {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                padding-top: 56.25%;
+            }
+            
+            .responsive-iframe {
+                position: absolute;
+                top: 20vh;
+                left: 50vh;
+                bottom: 50vh;
+                right: 100px;
+                width: 50%;
+                height: 50%;
+                border: none;
+            }
+            
+            footer {
+                height: 40px;
+                background: #eee;
+                text-align: center;
+                font-weight: 500;
+                font-size: 20px;
+            }
